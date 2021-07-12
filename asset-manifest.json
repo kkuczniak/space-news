@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/space-news/static/css/main.3731082d.chunk.css",
+    "main.js": "/space-news/static/js/main.334f168a.chunk.js",
+    "main.js.map": "/space-news/static/js/main.334f168a.chunk.js.map",
+    "runtime-main.js": "/space-news/static/js/runtime-main.ef85e8f8.js",
+    "runtime-main.js.map": "/space-news/static/js/runtime-main.ef85e8f8.js.map",
+    "static/js/2.7fd96cd4.chunk.js": "/space-news/static/js/2.7fd96cd4.chunk.js",
+    "static/js/2.7fd96cd4.chunk.js.map": "/space-news/static/js/2.7fd96cd4.chunk.js.map",
+    "static/js/3.9763a39b.chunk.js": "/space-news/static/js/3.9763a39b.chunk.js",
+    "static/js/3.9763a39b.chunk.js.map": "/space-news/static/js/3.9763a39b.chunk.js.map",
+    "index.html": "/space-news/index.html",
+    "static/css/main.3731082d.chunk.css.map": "/space-news/static/css/main.3731082d.chunk.css.map",
+    "static/js/2.7fd96cd4.chunk.js.LICENSE.txt": "/space-news/static/js/2.7fd96cd4.chunk.js.LICENSE.txt",
+    "static/media/crewIcon.97128119.png": "/space-news/static/media/crewIcon.97128119.png",
+    "static/media/iss.bf860c74.webp": "/space-news/static/media/iss.bf860c74.webp",
+    "static/media/landpadIcon.8e90d12d.png": "/space-news/static/media/landpadIcon.8e90d12d.png",
+    "static/media/mainView.4862f80a.webp": "/space-news/static/media/mainView.4862f80a.webp",
+    "static/media/nasa.c2688422.webp": "/space-news/static/media/nasa.c2688422.webp",
+    "static/media/rocketIcon.efc61713.png": "/space-news/static/media/rocketIcon.efc61713.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef85e8f8.js",
+    "static/js/2.7fd96cd4.chunk.js",
+    "static/css/main.3731082d.chunk.css",
+    "static/js/main.334f168a.chunk.js"
+  ]
+}
