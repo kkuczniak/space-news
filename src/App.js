@@ -1,9 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route, useLocation } from 'react-router-dom';
 import RocketPage from './views/RocketPage';
 import CrewPage from './views/CrewPage';
 import LandPadsPage from './views/LandPadsPage';
 import MainView from './views/MainView';
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   // const [rockets, setRockets] = useState([]);
@@ -38,24 +39,27 @@ function App() {
   // console.log(rockets);
   // console.log(crews);
   // console.log(landPads);
+  const location = useLocation();
 
   return (
-    <Router>
-      <Switch>
-        <Route exact path='/'>
-          <MainView />
-        </Route>
-        <Route path='/rocket'>
-          <RocketPage />
-        </Route>
-        <Route path='/crew'>
-          <CrewPage />
-        </Route>
-        <Route path='/landPads'>
-          <LandPadsPage />
-        </Route>
-      </Switch>
-    </Router>
+    <>
+      <AnimatePresence>
+        <Switch location={location} key={location.key}>
+          <Route exact path='/'>
+            <MainView />
+          </Route>
+          <Route path='/rocket'>
+            <RocketPage />
+          </Route>
+          <Route path='/crew'>
+            <CrewPage />
+          </Route>
+          <Route path='/landPads'>
+            <LandPadsPage />
+          </Route>
+        </Switch>
+      </AnimatePresence>
+    </>
   );
 }
 

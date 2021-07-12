@@ -8,7 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    height: 151,
   },
   primaryColor: {
     color: '#ffff',
@@ -50,7 +50,7 @@ function Rocket({ name, description, cost_per_launch, image }) {
           title={name}
         />
         <CardMedia className={classes.media} image={image} title={name} />
-        <CardContent>
+        <CardContent className={classes.root}>
           <Typography
             className={(classes.textmedia, classes.primaryColor)}
             variant='subtitle2'
