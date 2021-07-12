@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import RocketPage from './views/RocketPage';
 import CrewPage from './views/CrewPage';
+import LandPadsPage from './views/LandPadsPage';
 import MainView from './views/MainView';
 
 function App() {
@@ -49,6 +50,9 @@ function App() {
         </Route>
         <Route path='/crew'>
           <CrewPage />
+        </Route>
+        <Route path='/landPads'>
+          <LandPadsPage />
         </Route>
       </Switch>
     </Router>
